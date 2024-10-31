@@ -49,8 +49,8 @@ cmake_ninja_workdir = D$:/Study_Date/LeetCode/cmake-build-debug/
 
 build cmake_object_order_depends_target_LeetCode: phony || CMakeFiles/LeetCode.dir
 
-build CMakeFiles/LeetCode.dir/1_Two_Sum.cpp.obj: CXX_COMPILER__LeetCode_unscanned_Debug D$:/Study_Date/LeetCode/1_Two_Sum.cpp || cmake_object_order_depends_target_LeetCode
-  DEP_FILE = CMakeFiles\LeetCode.dir\1_Two_Sum.cpp.obj.d
+build CMakeFiles/LeetCode.dir/aaa.cpp.obj: CXX_COMPILER__LeetCode_unscanned_Debug D$:/Study_Date/LeetCode/aaa.cpp || cmake_object_order_depends_target_LeetCode
+  DEP_FILE = CMakeFiles\LeetCode.dir\aaa.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\LeetCode.dir
   OBJECT_FILE_DIR = CMakeFiles\LeetCode.dir
@@ -63,7 +63,7 @@ build CMakeFiles/LeetCode.dir/1_Two_Sum.cpp.obj: CXX_COMPILER__LeetCode_unscanne
 #############################################
 # Link the executable LeetCode.exe
 
-build LeetCode.exe: CXX_EXECUTABLE_LINKER__LeetCode_Debug CMakeFiles/LeetCode.dir/1_Two_Sum.cpp.obj
+build LeetCode.exe: CXX_EXECUTABLE_LINKER__LeetCode_Debug CMakeFiles/LeetCode.dir/aaa.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\LeetCode.dir
